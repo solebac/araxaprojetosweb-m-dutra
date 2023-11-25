@@ -1,46 +1,78 @@
 .depoimentos__main{
-    background-color: white; padding: 1em 1em 3em 1em;
+    background-color: white; 
+    padding: 1em .4em 3em .4em;
 }
 .depoimentos__titulo{
-    border-bottom: 2px solid var(--cor-fonte-header-02);
+    border-bottom: 1px solid var(--cor-fonte-header-02);
 }
 .depoimentos{
     width: 100%;
     display: flex;
+    flex-direction: column;
     margin-top: 1em;
 }
 .depoimentos__destaques{
-    width: 50%;
-    height: 620px;
-    /* padding: 1em; */
-    /* border: 1px solid #111;  */
-    border-radius: 18px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .depoimentos__destaques-container-imagem{
-    width: 580px;
-    height: 580px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
-    object-fit: fill;
+    object-fit: cover;
 }
 .depoimentos__relevantes{
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
 }
 .depoimentos__destaques-container--titulo{
     margin: 1em 0;
-    font-size: 32px;
+    font-size: 18px;
     letter-spacing: -0.9px;
     font-weight: 600;
     color: #111111;
 }
 .depoimentos__destaques-container--texto{
-    font-size: 18px;
-    line-height: 2;
+    font-size: 14px;
+    line-height: 1.4;
     text-align: justify;
+}
+@media screen and (min-width:1024px) {
+    .depoimentos__main{
+        padding: 1em 1em 3em 1em;
+    }
+    .depoimentos__titulo{
+        border-bottom: 2px solid var(--cor-fonte-header-02);
+    }
+    .depoimentos{
+        flex-direction: row;
+    }
+    .depoimentos__destaques{
+        width: 50%;
+        height: 620px;
+        border-radius: 18px;
+    }
+
+    .depoimentos__destaques-container-imagem{
+        width: 580px;
+        height: 580px;
+        border-radius: 50%;
+        object-fit: fill;
+    }
+    .depoimentos__relevantes{
+        width: 50%;
+    }
+    .depoimentos__destaques-container--titulo{
+        font-size: 32px;
+    }
+    .depoimentos__destaques-container--texto{
+        font-size: 18px;
+        line-height: 2;
+        text-align: justify;
+    }
 }
