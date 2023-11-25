@@ -1,0 +1,29 @@
+@import url("./estilos/reset.css");
+@import url("./estilos/header.css");
+@import url("./estilos/carrossel.css");
+@import url("./estilos/base.css");
+@import url("./estilos/cards.css");
+@import url("./estilos/noticias.css");
+@import url("./estilos/rodape.css");
+@import url("./estilos/depoimentos.css");
+@import url("./estilos/whatsapp.css");
+:root{
+    --fonte-principal: "Open Sans", sans-serif;
+    --cor-de-header: #d5bd9170;
+    --cor-fonte-header-01: #e8238d;
+    --cor-footer: #c50b6e;
+    --cor-branco: #ffffff;
+    --cor-fonte-header-02: #2f2025;
+    --cor-header-shadow: #d2c5cc;
+}
+html, body{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
+    overflow-x: hidden;
+    height: 100%;
+    background: url('./thumbnail/ruido-life-02.jpg');
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-attachment: fixed;
+}

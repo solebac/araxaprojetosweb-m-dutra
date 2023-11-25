@@ -1,0 +1,46 @@
+.depoimentos__main{
+    background-color: white; padding: 1em 1em 3em 1em;
+}
+.depoimentos__titulo{
+    border-bottom: 2px solid var(--cor-fonte-header-02);
+}
+.depoimentos{
+    width: 100%;
+    display: flex;
+    margin-top: 1em;
+}
+.depoimentos__destaques{
+    width: 50%;
+    height: 620px;
+    /* padding: 1em; */
+    /* border: 1px solid #111;  */
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.depoimentos__destaques-container-imagem{
+    width: 580px;
+    height: 580px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+.depoimentos__relevantes{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.depoimentos__destaques-container--titulo{
+    margin: 1em 0;
+    font-size: 32px;
+    letter-spacing: -0.9px;
+    font-weight: 600;
+    color: #111111;
+}
+.depoimentos__destaques-container--texto{
+    font-size: 18px;
+    line-height: 2;
+    text-align: justify;
+}
