@@ -4,8 +4,8 @@
     right: 1em;
     z-index: 99999;
     width: auto;
-    background: var(--green-libano);
-    border-top: 5px solid var(--laranja);
+    /* background: var(--green-libano);
+    border-top: 5px solid var(--laranja); */
 }
 .box-whatsapp-icone{
     background: url('../thumbnail/menu/whatsapp-sm.png');
@@ -13,7 +13,7 @@
     background-position: center;
     width: 48px;
     height: 48px;
-    background-color: white;
+    background-color: var(--cor-branco);
     border-radius: 50%;
 }
 .box-link{

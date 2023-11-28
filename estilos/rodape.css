@@ -101,7 +101,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
     line-height: 1.6;
-    color: grey;
+    color: var(--cor-cinza-hard);
 }
 .rodape__below-parceiro{
     padding: 0em 1em 1em 1em;
@@ -123,5 +123,6 @@
 }
 .rodape__below-parceiro-texto{
     display: flow;
-    color: var(--cinza-claro);
+    color: var(--cor-cinza-hard);
+    margin-right: 5px;
 }

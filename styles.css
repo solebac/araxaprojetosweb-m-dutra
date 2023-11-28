@@ -7,6 +7,7 @@
 @import url("./estilos/rodape.css");
 @import url("./estilos/depoimentos.css");
 @import url("./estilos/whatsapp.css");
+@import url("./estilos/lives.css");
 :root{
     --fonte-principal: "Open Sans", sans-serif;
     --cor-de-header: #d5bd9170;
@@ -15,6 +16,9 @@
     --cor-branco: #ffffff;
     --cor-fonte-header-02: #2f2025;
     --cor-header-shadow: #d2c5cc;
+    --cor-black-ligth: #111111;
+    --cor-cinza-ligth: #666666;
+    --cor-cinza-hard: #474a51;
 }
 html, body{
     font-family: var(--fonte-principal);

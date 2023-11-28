@@ -1,5 +1,5 @@
 .depoimentos__main{
-    background-color: white; 
+    background-color: var(--cor-branco); 
     padding: 1em .4em 3em .4em;
 }
 .depoimentos__titulo{
