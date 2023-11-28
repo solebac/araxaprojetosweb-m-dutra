@@ -7,31 +7,42 @@
 }
 .lives__tuber{
     display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     margin-top: 1em;
-}
-.lives__subtitulo{
-    width: 80%; 
-    margin-right: .4em;
-    padding: 1em 0; 
-    text-align: center;
-    text-transform: uppercase; 
-    font-size: 36px; 
-    font-weight: 600;
-    letter-spacing:-0.05em; 
-    background-color: var(--cor-de-header);
-    color: var(--cor-fonte-header-02);
 }
 .lives__link{
     text-decoration: none; 
     text-transform: uppercase;
-    width: 20%; 
-    padding: 3m; 
+    width: 30%;
+    padding: .5em;
+    /* width: 20%;  */
+    /* padding: 3m;  */
     display: flex; 
     justify-content: center; 
     align-items: center; 
     background-color: var(--cor-footer);
     color: var(--cor-branco); 
-    font-size: 24px; font-weight: 600;
+    font-size: 22px; font-weight: 600;
+}
+.lives__subtitulo{
+    width: 100%;
+    margin-bottom: .5em;
+    margin-right: .2em;
+    padding: .5em 0; 
+    text-align: center;
+    text-transform: uppercase; 
+    font-size: 18px; 
+    font-weight: 600;
+    letter-spacing:-0.05em; 
+    background-color: var(--cor-de-header);
+    color: var(--cor-fonte-header-02);
+}
+.lives__descricao{
+    margin-left: 2px;
+    font-size: 14px;
 }
 .lives__imagem-youtube{
     width: 32px;
@@ -41,20 +52,18 @@
     background-position: center;
     display: inline-block;
 }
-.lives__descricao{
-    margin-left: 5px;
-}
 .lives{
-    margin-top: 2em; 
+    margin-top: 1em; 
     background-color: var(--cor-header-shadow);
-    padding: 1em; 
+    /* padding: 1em;  */
     display: flex;
+    flex-direction: column;
 }
 .lives__container{
-    width: 25%; 
-    height: 380px;  
-    margin-right: 5px;
+    width: 100%; 
+    height: 400px;  
     background-color: #faf0dc;
+    margin-top: 1em;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -70,4 +79,61 @@
     flex-direction: column;
     justify-content: center;
     height: 60px;
+}
+@media screen and (min-width:800px) {
+    .lives__subtitulo{
+        /* margin-right: .2em; */
+        /* padding: .5em 0;  */
+        font-size: 22px; 
+    }
+    .lives__tuber{
+        flex-direction: row;
+        justify-content: unset;
+        align-items: unset;
+    }
+}
+@media screen and (min-width:1024px) {
+    .lives__subtitulo{
+        width: 80%;
+        margin-bottom: 0;
+        margin-right: .4em;
+        padding: 1em 0; 
+        font-size: 36px; 
+    }
+    .lives__link{
+        font-size: 22px;
+        width: 20%; 
+        padding: 1em 0; 
+    }
+    .lives__imagem-youtube{
+        width: 28px;
+        height: 28px;
+    }
+    .lives__descricao{
+        margin-left: 5px;
+    }
+    .lives{
+        margin-top: 2em; 
+        padding: 1em;
+        flex-direction: row;
+    }
+    .lives__container{
+        width: 25%; 
+        height: 380px;  
+        margin-right: 5px;
+        margin-top: 0;
+
+    }
+    /* .lives__container-texto{
+        font-size: 14px;
+        font-weight: 600;
+        padding: .5em;
+        text-align: justify;
+        line-height: 1.2;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 60px;
+    } */
 }
