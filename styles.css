@@ -19,6 +19,7 @@
     --cor-black-ligth: #111111;
     --cor-cinza-ligth: #666666;
     --cor-cinza-hard: #474a51;
+    --cor-fill-lives:#faf0dc;
 }
 html, body{
     font-family: var(--fonte-principal);

@@ -1,6 +1,6 @@
 .lives__main{
     background-color: var(--cor-branco); 
-    padding: 1em .4em 3em .4em;
+    padding: 1em .4em 1.5em .4em;
 }
 .lives__titulo{
     border-bottom: 1px solid var(--cor-fonte-header-02);
@@ -61,7 +61,7 @@
 .lives__container{
     width: 100%; 
     height: 400px;  
-    background-color: #faf0dc;
+    background-color: var(--cor-fill-lives);
     margin-top: 1em;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -79,6 +79,22 @@
     justify-content: center;
     height: 60px;
 }
+.lives__button{
+    width: 100%;
+    display: block;
+    margin-top: 1em;
+    padding: 1em 0;
+    background-color: var(--cor-footer);
+    color: var(--cor-branco);
+    border-radius: 25px;
+    font-size: 14px;
+    letter-spacing: .5em;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 @media screen and (min-width:800px) {
     .lives__subtitulo{
         /* margin-right: .2em; */
@@ -98,6 +114,11 @@
         margin-right: .4em;
         padding: 1em 0; 
         font-size: 36px; 
+    }
+    .lives__button{
+        border-radius: 40px;
+        font-size: 22px;
+        letter-spacing: 1em;
     }
     .lives__link{
         font-size: 22px;
@@ -124,16 +145,4 @@
         margin-top: 0;
 
     }
-    /* .lives__container-texto{
-        font-size: 14px;
-        font-weight: 600;
-        padding: .5em;
-        text-align: justify;
-        line-height: 1.2;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        height: 60px;
-    } */
 }
