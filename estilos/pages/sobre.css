@@ -3,6 +3,9 @@
 .mb-1{
     margin-bottom: 1em;
 }
+.about__titulo--redutor{
+    font-size: 14px;
+}
 .about__container{
     width: 100%; 
     display: block; 
@@ -237,6 +240,9 @@
         width: 60%; 
         min-height: 780px;
     }
+    .about__titulo--redutor{
+        font-size: 28px;
+    }
     .about__picture{
         width: 480px;
         height: 480px;
@@ -305,7 +311,7 @@
         line-height: 1.5;
     }
     .about__linha-tempo-second-flex--reverse{
-        display: block;
+        display: flex;
     }
     .about__cabecalho-container{
         display: flex;
