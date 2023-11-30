@@ -1,6 +1,9 @@
 .noticias__main{
     background-color: var(--cor-branco); padding: 1em .2em 2em .2em;
 }
+.noticias__titulo{
+    border-bottom: 1px solid var(--cor-fonte-header-02);
+}
 .noticias{
     width: 100%;
     display: flex;
