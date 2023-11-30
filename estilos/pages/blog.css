@@ -25,7 +25,7 @@ body{
     -webkit-user-select: none;
     user-select: none;
     vertical-align: middle;
-    white-space: nowrap;
+    --cor-branco-space: nowrap;
 }
 .btn-post {
     position: relative;
@@ -52,7 +52,7 @@ body{
     border-radius: 50%;
     background: gray;
     font-size: 14px;
-    color: white;
+    color: --cor-branco;
     box-sizing: border-box; /*bottom: 0.25rem;*/
     top: 2px;
     margin-top: 2px;
@@ -132,6 +132,10 @@ body{
 }
 .capa__container-imagem-estrelas{
     display: flex;
+    background: --cor-branco;
+    padding: .3em 1em;
+    border-radius: 100px;
+    border: 1px solid var(--cor-fonte-header-02);
 }
 .capa__container-imagem{
     width: 100px; 
@@ -172,86 +176,26 @@ body{
 }
 
 @media screen and (min-width:1024px) {
-    /* Imagem de Capa */
-    /* .capa{
-        display: table;
-        width: 100%;
-    } */
-
     .capa__main{
         width: 48%;
-        /* height: 360px; */
         height: 380px;
-        /* margin: 0 auto;
-        height: 360px;
-        background: #faf0dcd1; */
         border-radius: 50px;
     }
     .capa__container-footer {
         height: 100px;
     }
-    /* .texto__capa{
-        text-align: center;
-        color: aliceblue;
-        display: table-cell;
-        vertical-align: middle;
-    } */
-    /* .capa__container-flex{
-        padding: 1em 0;
-    } */
-
-    /* .capa__container-imagem-estrelas{
-        display: flex;
-    }
-    .capa__container-imagem{
-        width: 100px; 
-        object-fit: cover;
-    }
-    .capa__container-picture{
-        width: 80px;
-        height: 80px;
-        border: 5px solid #d2bebe;
-        padding: 1em;
-        border-radius: 50%;
-        overflow: hidden;
-        background-color: var(--cor-header-shadow);
-    }
-    .capa__container-imagem-group{
-        display: flex;
-        background: --cor-branco;
-        border-radius: 20px;
-        padding: .2em;
-        width: 160px;
-        align-items: center;
-        justify-content: center;
-    } */
     .capa__container-titulo{
-        /* font-family: 'Bree Serif', serif; */
         font-size: 42px;
-        /* font-weight: bold;
-        text-transform: uppercase; */
     }
     .capa__container-subtitulo{
         font-size: 28px;
     }
-    /* .capa__container-imagem-estrelas-item{
-        margin-right: 5px;
-    }
-    .capa__container-regua{
-        margin: 0;
-    } */
-
     .capa__container-footer{
-        /* height: 100px; */
         border-radius: 0 0 50px 50px;
-        /* background-color: var(--cor-fonte-header-02); */
         padding-top: 1em;
     }
     .capa__container-texto{
         font-size: 16px;
-        /* color: var(--cor-fonte-header-02); */
-        /* padding: 1em 7em 1em 7em; */
-        /* color: --cor-branco; */
     }
 
     .capa__destaques--left-pesquisa{
@@ -263,5 +207,14 @@ body{
     }
     .capa__destaques--left-pesquisa::placeholder{
         font-size: 16px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .capa__container-imagem {
+        width: 200px;
+    }
+    .capa__container-picture {
+        width: 130px;
+        height: 180px;
     }
 }
