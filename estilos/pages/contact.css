@@ -1,4 +1,4 @@
-.banner__child{
+/* .banner__child{
     width: 100%;
     height: 300px;
     overflow: hidden;
@@ -11,7 +11,7 @@
     width: 100%;
     height: 320px;
     object-fit: cover;
-}
+} */
 .contact__container {
   margin: 20px auto;
   width: 99%;
@@ -142,12 +142,12 @@ textarea {
 
 @media screen and (min-width:1024px) {
 
-.banner__child{
+/* .banner__child{
   height: 400px;
 }
 .banner__child-imagem{
     height: 420px;
-}
+} */
 
 .contact__form{
   padding-bottom: 2em;
