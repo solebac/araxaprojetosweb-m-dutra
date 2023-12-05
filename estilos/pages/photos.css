@@ -14,7 +14,7 @@
     justify-content: center;
 }
 .thumbnails {
-	/* margin-left: -2.12766% !important; */
+	margin-left: -2.12766% !important;
 }
 .thumbnails [class*="span"] {
 	margin-left: 2.12766% !important;
